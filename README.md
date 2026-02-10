@@ -30,7 +30,7 @@ This repository hosts the campaign hub for **Blood & Dust**, a Mythras Imperativ
 
 ### Prerequisites
 
-- Ruby 3.1 or higher
+- Ruby 3.1 or higher (Ruby 3.1 tested, newer versions should work)
 - Bundler gem
 
 ### Setup
