@@ -1,0 +1,278 @@
+---
+---
+
+@import "minima/skins/dark";
+@import "minima/initialize";
+
+// Blood & Dust Theme: Ancient Arena/Gladiatorial/Roman Empire
+// Earth tones, sand, iron, marble, and faded gold
+
+// Color Palette
+$background-dark: #1a1511;      // Dark earth/arena sand
+$background-medium: #2b2218;    // Dark bronze/iron
+$background-card: #3a2f26;      // Weathered stone
+$primary-accent: #c9986a;       // Faded gold/bronze
+$secondary-accent: #8b4513;     // Iron rust/dried blood
+$text-primary: #e8dcc8;         // Weathered parchment
+$text-muted: #b8a890;           // Dusty sand
+$border-color: #4d3d2f;         // Ancient bronze
+$marble-white: #d4c5b0;         // Aged marble
+
+// Override Minima dark skin
+body {
+  background-color: $background-dark;
+  color: $text-primary;
+  font-family: 'Courier New', Courier, monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+// Headers with imperial styling
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', 'Palatino', 'Times New Roman', serif;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: $text-primary;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 2px solid $primary-accent;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 2em;
+  color: $primary-accent;
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: $secondary-accent;
+}
+
+// Links with ancient metal effect
+a {
+  color: $primary-accent;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    color: lighten($primary-accent, 15%);
+    text-shadow: 1px 1px 2px rgba($primary-accent, 0.4);
+  }
+  
+  &:visited {
+    color: darken($primary-accent, 10%);
+  }
+}
+
+// Site header
+.site-header {
+  background-color: $background-medium;
+  border-bottom: 3px solid $primary-accent;
+  border-top: none;
+  
+  .site-title {
+    font-family: 'Trajan Pro', 'Georgia', serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: $primary-accent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    
+    &:hover {
+      text-decoration: none;
+      color: lighten($primary-accent, 10%);
+    }
+  }
+  
+  .site-nav {
+    .page-link {
+      color: $text-muted;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      letter-spacing: 0.05em;
+      
+      &:hover {
+        color: $primary-accent;
+      }
+    }
+  }
+}
+
+// Main content area
+.page-content {
+  background: linear-gradient(to bottom, $background-dark 0%, $background-medium 100%);
+  padding: 2em 0;
+  min-height: calc(100vh - 200px);
+}
+
+.wrapper {
+  background-color: rgba($background-card, 0.6);
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  padding: 2em;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+// Post/page content
+.post-content, .page-content article {
+  h1, h2, h3 {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+// Lists with custom styling
+ul, ol {
+  li {
+    margin-bottom: 0.5em;
+    
+    &::marker {
+      color: $primary-accent;
+    }
+  }
+}
+
+// Blockquotes with noir feel
+blockquote {
+  border-left: 4px solid $primary-accent;
+  background-color: rgba($background-dark, 0.5);
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: $text-muted;
+  
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// Code blocks
+code, pre {
+  background-color: $background-dark;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  color: $marble-white;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  
+  code {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+  background-color: rgba($background-card, 0.5);
+  
+  th, td {
+    border: 1px solid $border-color;
+    padding: 0.75em;
+    text-align: left;
+  }
+  
+  th {
+    background-color: $background-medium;
+    color: $primary-accent;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  tr:hover {
+    background-color: rgba($primary-accent, 0.1);
+  }
+}
+
+// Footer
+.site-footer {
+  background-color: $background-medium;
+  border-top: 2px solid $primary-accent;
+  color: $text-muted;
+  
+  a {
+    color: $text-muted;
+    
+    &:hover {
+      color: $primary-accent;
+    }
+  }
+}
+
+// Special elements
+.post-meta {
+  color: $text-muted;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $border-color;
+  margin: 2em 0;
+}
+
+// Home page styling
+.home {
+  .post-list {
+    h3 {
+      margin-top: 0;
+    }
+  }
+}
+
+// Emphasis styling (for game terms)
+em {
+  color: $primary-accent;
+  font-weight: 600;
+}
+
+strong {
+  color: $primary-accent;
+  font-weight: 700;
+}
+
+// Custom class for atmospheric quotes
+.atmospheric-quote {
+  font-family: 'Georgia', serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 2em 0;
+  padding: 1em;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  color: $text-muted;
+  font-style: italic;
+}
+
+// Responsive adjustments
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  .wrapper {
+    padding: 1em;
+  }
+}
