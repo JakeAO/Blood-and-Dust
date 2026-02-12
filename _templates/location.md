@@ -5,8 +5,6 @@ topic: Locations
 summary: "[Short description of the location in Obusia]"
 ---
 
-# [Location Name]
-
 **Type:** [Arena / District / Ludus / Villa / Temple]
 
 ## Overview

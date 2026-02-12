@@ -5,8 +5,6 @@ topic: Mechanics
 summary: Quick reference for combat actions in Mythras Imperative
 ---
 
-# Combat Actions in Mythras
-
 In Mythras Imperative, each combat round you can take different types of actions based on the situation.
 
 ## Action Types

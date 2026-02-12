@@ -5,8 +5,6 @@ index: [Session number]
 summary: "[One-line summary of the session's events]"
 ---
 
-# Session [Number]: [Title]
-
 **Date:** [Session date]
 **Arena Event:** [Type of combat - individual bout, team melee, beast fight, etc.]
 

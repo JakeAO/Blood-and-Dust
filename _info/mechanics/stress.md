@@ -5,8 +5,6 @@ topic: Mechanics
 summary: Hit locations, damage, and recovering from wounds
 ---
 
-# Damage & Wounds
-
 ## Hit Locations
 
 Every character has seven hit locations, each with its own Hit Points and armor:

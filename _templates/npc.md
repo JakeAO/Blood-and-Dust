@@ -5,8 +5,6 @@ topic: NPCs
 summary: "[One-sentence summary of the NPC's role]"
 ---
 
-# [NPC Name]
-
 **Role:** (e.g., Lanista / Sponsor / Rival Gladiator / Arena Official)
 
 ## Description

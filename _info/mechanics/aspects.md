@@ -5,8 +5,6 @@ topic: Mechanics
 summary: Passions, loyalties, and reputation in Mythras
 ---
 
-# Passions & Reputation
-
 ## What Are Passions?
 
 Passions represent deep emotional connections, beliefs, or loyalties that drive your character. They work like skills with a percentage rating.

@@ -5,8 +5,6 @@ topic: Cheat Sheets
 summary: One-page reference for common Mythras mechanics
 ---
 
-# Mythras Imperative Quick Reference
-
 ## The Dice
 
 Roll **d100 (percentile dice)**: Roll two ten-sided dice, one for tens and one for ones.

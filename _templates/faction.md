@@ -5,8 +5,6 @@ topic: Factions
 summary: "[One-sentence summary of the faction's purpose or influence]"
 ---
 
-# [Faction Name]
-
 **Type:** [Gladiatorial School / Patrician House / Political Faction / Religious Cult]
 
 ## Overview

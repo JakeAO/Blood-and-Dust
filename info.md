@@ -9,8 +9,9 @@ This page contains player-facing rules clarifications, reference sheets, and gam
 
 ## Core Resources
 
-- **[Mythras Imperative PDF](https://www.thedesignmechanism.com/resources/Mythras%20Imperative.pdf)** – Free core rules from The Design Mechanism
-- **[Mythras Resources](https://www.thedesignmechanism.com/resources.php)** – Additional free downloads and supplements
+- **[Mythras Imperative SRD](https://srd.mythras.net/#/)** - Free online rules reference
+- **[Mythras Imperative PDF](https://thedesignmechanism.com/mythras-imperative/)** – Free core rules PDF
+- **[Mythras Character Sheets](https://thedesignmechanism.com/character-sheets/)** - Official character sheets in PDF format
 - **[Mythras Gateway](https://mythras.skoll.xyz/)** – Online character creator and tools
 
 ## Quick Reference
